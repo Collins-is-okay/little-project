@@ -1,0 +1,194 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	/*overflow-x: hidden;*/
+}
+
+/*Heder section starts here*/
+/*Top navbar styling*/
+header > nav > .top-navbar{
+	background: #FBFBFB;
+	padding: 1em 2.8em;
+}
+
+header > nav > .top-navbar > a{
+	text-decoration: none;
+	color: #000;
+	padding-right:1.2em; 
+}
+header > nav > .top-navbar > a:hover{
+	color: green;
+	transition: .5s;
+}
+
+/*Bottom navbar styling*/
+header > nav > .bottom-navbar{
+	display: flex;
+	background-color: #fff;
+	padding: 1em 2.8em;
+	padding-right: 15px;
+}
+header > nav > .bottom-navbar ul{
+	display: flex;
+	align-items: center;
+}
+header > nav > .bottom-navbar > .logo{
+	padding-right: 2em;
+}
+header > nav > .bottom-navbar > .logo a{
+	text-decoration: none;
+	font-size: 2em;
+	color: green;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+header > nav > .bottom-navbar > ul > li{
+	list-style-type: none;
+}
+header > nav > .bottom-navbar > ul > li a{
+	text-decoration:none;
+	padding-right: 25px;
+	color: #000;
+}
+header > nav > .bottom-navbar > ul > li a:hover{
+	color: green;
+}
+header > nav > .bottom-navbar > ul > li:first-child a{
+	color: green;
+}
+header > nav > .bottom-navbar > a{
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	border: 2px solid green;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: green;
+}
+header > nav > .bottom-navbar > a:hover{
+	background: green;
+	color: #fff;
+}
+/*Nav section ends here*/
+/*Hero section here*/
+header > .hero-container > .hero-image{
+	background-image: url(../images/slide/slide-3.jpg);
+	width: 1024px;
+	height: 450px;
+	margin: auto;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+}
+header > .hero-container > .hero-image::before{
+	content: "";
+	position: absolute;
+	top: 123px;
+	bottom: 68px;
+	right: 0;
+	left: 0;
+	z-index: 2;
+	background: rgba(0, 120, 0,  0.4);
+}
+header > .hero-container > .hero-image > .hero-text{
+	z-index: 5;
+}
+header > .hero-container > .hero-image > .hero-text h1,
+header > .hero-container > .hero-image > .hero-text p{
+	width: 800px;
+	text-align: center;
+	color: white;
+	
+}
+header > .hero-container > .hero-image > .hero-text h1{
+	font-size: 3.8em;
+	font-weight: bolder;
+	font-family: sans-serif;
+	margin-bottom: 2rem;
+}
+header > .hero-container > .hero-image > .hero-text a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2em auto;
+	text-decoration: none;
+	border: none;
+	background-color: green;
+	color: #fff;
+	width: 150px;
+	padding: 10px 25px;
+	border-radius: 5px;
+	font-size: 1.3em;
+}
+/*hero sectionends here*/
+/*Header ends*/
+
+/*Main section styling starts here*/
+main > .main-section{
+	display: flex;
+	background-color: #F8FCF9;
+}
+main > .main-section > .post{
+	padding: 3em;
+	
+}
+main > .main-section > .post > p{
+	padding-top: 2em;	
+}
+main > .main-section > .post > a{
+	text-decoration: none;
+	color: #000;
+}
+main > .main-section > .post > a:hover{
+	color: green;
+}
+/*About section styles here*/
+main > .about-section{
+	width: 900px;
+	margin: 3em auto;
+}
+main > .about-section > .about-me h1{
+	text-align: center;
+}
+main > .about-section > .about-me p{
+	margin: 20px;
+	text-align: center;
+}
+
+main > .about-section > .about-me > .about-description{
+	display: flex;
+	/*width: 1200px;*/
+
+}
+main > .about-section > .about-me > .about-description > img{
+	width: 450px;
+	height: 350px;
+}
+.about-text > p:first-child{
+	color: red;
+}
+
+
+/*main > .about-section > .about-me > .bottom-line{
+	width: 80px;
+	margin: auto;
+	display: flex;
+}
+main > .about-section > .about-me > .bottom-line > div{
+	background: green;
+	width: 100px;
+	height: 5px;
+}
+main > .about-section > .about-me > .bottom-line > div::before{
+	content: "";
+	background: #000;
+	width: 100px;
+	height: 5px;
+	border: 1px solid #000;
+}*/
